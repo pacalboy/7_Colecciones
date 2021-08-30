@@ -106,3 +106,8 @@ Añade 5 libros a la colección. Muestra todos los libros.
 Cambia la implementación, de TreeMap a HashMap. ¿Cuál es la diferencia? Adjunta captura de los resultados de ejecución por consola.
   
 Extra: opción 6: añade 100 libros con Faker, el bibliotecario sólo interacciona cuando surjan claves duplicadas.
+
+~~~
+Con TreeMap quedan ordenados por la clave. 
+Los vemos ordenados por autor ya que la clave empieza por las mismas letras que el autor.
+~~~
