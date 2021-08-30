@@ -3,17 +3,17 @@ Uso de listas, de iteradores, de árboles y de mapas.
 
 ## ArrayList
 **Ejercicios 1:**  
--Crea un ArrayList con 4 nombres de personas. Muestra su tamaño. Muestra el índice de alguno de tus nombres  
--Crea un ArrayList con 4 enteros. Obtén el elemento en la tercera posición  
+-Crea un ArrayList con 4 nombres de personas. Muestra su tamaño. Muestra el índice de alguno de tus nombres.  
+-Crea un ArrayList con 4 enteros. Obtén el elemento en la tercera posición.  
 -Crea un ArrayList con 4 caracteres. Muestra su tamaño. Añade otro carácter. Muestra su tamaño.  
 -Crea un ArrayList con 4 Personas. Las personas son unas entidades que tienen nombre y edad, métodos para consultar y establecer estos atributos y un método toString.  
--Obtén el primer elemento de la lista y muéstralo  
+-Obtén el primer elemento de la lista y muéstralo.  
 -Crea otro ArrayList personas2. Asígnale la lista anterior.  
 -Crea un tercer ArrayList personas3. Clona el primer ArrayList de personas en este con el método clone.  
 -Crea un ArrayList de nombres de empresas de la localidad. Añade al menos 5. Comprueba si el elemento "ITP" está en la lista con el método constains, si no está añádelo. A continuación vuelve a añadir el elemento "ITP". Ahora "ITP" debe estar dos veces en la lista.  
 -Obtén el índice del primer elemento "ITP". Obtén el índice del último elemento "ITP" con el método lastIndexOf, guarda ese valor.  
 -Utiliza el valor guardado para eliminar el elemento "ITP" repetido.  
--Borra el otro elemento "ITP" sin usar su índice  
+-Borra el otro elemento "ITP" sin usar su índice. 
 -Crea un nuevo ArrayList de enteros. Asigna un elemento. Comprueba si el ArrayList está vacío, en caso contrario vacíalo. Vuelve a comprobar si está vacío.  
 -Crea un ArrayList con capacidad inicial para 50 Personas. Añade sólo dos elementos. Compueba su tamaño.  
   
@@ -21,10 +21,10 @@ Uso de listas, de iteradores, de árboles y de mapas.
 -Crea un ArrayList de enteros de capacidad 10 y añade 10 elementos con el valor 5.  
 -Crea un ArrayList de enteros de capacidad 5 y añade 5 números aleatorios.  
 -Crea un String con un mensaje. Guarda cada caracter del mensaje en un elemento de un nuevo ArrayList con la capacidad inicial del tamaño del mensaje.  
--Guarda este ArrayList con el mensaje en un Array estático [ ] de tipo char  
+-Guarda este ArrayList con el mensaje en un Array estático [ ] de tipo char.  
 -Crea un ArrayList de enteros de capacidad 10 y añade 10 elementos desde el 0 al 9.  
 -Crea un ArrayList de booleanos de capacidad 20 y añade 15 elementos alternando entre 0 y 1.  
--Añade 50 elementos al ArrayList que declaraste con capacidad 50 utilizando una estructura for. Para generar los elementos lo haremos de forma aleatoria con la buena librería Faker que podéis encontrar aquí: [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker)
+-Añade 50 elementos al ArrayList que declaraste con capacidad 50 utilizando una estructura for. Para generar los elementos lo haremos de forma aleatoria con la buena librería Faker que podéis encontrar aquí: [https://github.com/DiUS/java-faker](https://github.com/DiUS/java-faker).
 
 **Ejercicios 3:**  
 -Crea un ArrayList de cadenas de caracteres. Rellena la lista con cadenas como la siguiente: "Elemento 0", "Elemento 1", "Elemento 2"..... y así hasta el elemento 10.  
@@ -45,7 +45,14 @@ Uso de listas, de iteradores, de árboles y de mapas.
 
 
 ## Iterator
-Crea una clase denominada Empresa que disponga de los siguientes atributos: String nombre, Empleado director, Calendar fechaCreacion, ArrayList listaEmpleados que contenga objetos de tipo Empleado. La clase debe tener un método que permita añadir objetos de tipo Empleado a la lista. Un objeto de tipo Empleado tendrá como atributos nombre (String) y departamento(int), ambos requisito para poder construir el objeto, y otros atributos opcionales como salario, número de seguridad social, dni y titulación. Existen todos los métodos para obtener y establecer los atributos todos los atributos. Crea una clase Test con el método main que inicialice un objeto Empresa y añade manualmente dos objetos de tipo Empleado a la la lista de empleados. Usando iterator muestra los nombres de cada empleado y su departamento. Se debe pedir al usuario un nombre y departamento para añadir un nuevo empleado, y una vez introducidos los datos mostrar la lista actualizada usando iterator. Una vez mostrada la lista actualizada, se debe dar opción a elegir entre volver a introducir los datos de otro empleado o salir del programa (se podrán introducir tantos datos de empleados como se desee. Para ello usa un bucle while que dé opción a elegir al usuario).
+Crea una clase denominada Empresa que disponga de los siguientes atributos: String nombre, Empleado director, Calendar fechaCreacion, ArrayList listaEmpleados que contenga objetos de tipo Empleado.  
+La clase debe tener un método que permita añadir objetos de tipo Empleado a la lista. Un objeto de tipo Empleado tendrá como atributos nombre (String) y departamento(int), ambos requisito para poder construir el objeto, y otros atributos opcionales como salario, número de seguridad social, dni y titulación.  
+Existen todos los métodos para obtener y establecer los atributos todos los atributos. 
+  
+Crea una clase Test con el método main que inicialice un objeto Empresa y añade manualmente dos objetos de tipo Empleado a la la lista de empleados.  
+Usando iterator muestra los nombres de cada empleado y su departamento.  
+Se debe pedir al usuario un nombre y departamento para añadir un nuevo empleado, y una vez introducidos los datos mostrar la lista actualizada usando iterator.  
+Una vez mostrada la lista actualizada, se debe dar opción a elegir entre volver a introducir los datos de otro empleado o salir del programa (se podrán introducir tantos datos de empleados como se desee. Para ello usa un bucle while que dé opción a elegir al usuario).
 
 ~~~
 Ver la corrección. 
